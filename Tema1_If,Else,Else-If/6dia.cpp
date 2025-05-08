@@ -8,9 +8,7 @@ int main(){
 
     if(DATA1 >= 1 && DATA1 <= 5){
         cout <<"work day";
-    }else if(DATA1=6){
-        cout <<"weekend";
-    }else if(DATA1=7){
+    }else if(DATA1 >= 6 && DATA1 <= 7){
         cout <<"weekend";
     }else{
         cout <<"Enter a valid number";
