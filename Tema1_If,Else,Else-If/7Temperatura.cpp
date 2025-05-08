@@ -13,6 +13,5 @@ int main(){
     }else if(TEMP >25){
         cout <<"The temperature is hot ";
     }
-
     return 0;
 }
