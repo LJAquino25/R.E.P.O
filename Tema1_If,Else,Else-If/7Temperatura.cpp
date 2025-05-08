@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int TEMP;
 
-    cout <<"Enter the current temperature: ";
+    cout <<"Enter the current temperature in celsius: ";
     cin >>TEMP;
 
     if(TEMP < 15){
