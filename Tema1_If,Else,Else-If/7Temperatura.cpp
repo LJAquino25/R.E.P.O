@@ -7,11 +7,11 @@ int main(){
     cin >>TEMP;
 
     if(TEMP < 15){
-        cout <<"The temperature is cold";
+        cout <<"The temperature is cold ";
     }else if(TEMP >= 15 && TEMP <=25){
-        cout <<"the temperature is mild";
+        cout <<"the temperature is mild ";
     }else if(TEMP >25){
-        cout <<"The temperature is hot";
+        cout <<"The temperature is hot ";
     }
 
     return 0;
