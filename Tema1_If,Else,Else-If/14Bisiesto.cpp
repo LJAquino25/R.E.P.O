@@ -2,7 +2,6 @@
 using namespace std;
 int main(){
     int YEAR;
-    int LEAP;
     cout <<"Enter a year of your eleccion: ";
     cin >> YEAR;
 
