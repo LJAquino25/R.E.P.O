@@ -2,14 +2,14 @@
 using namespace std;
 int main(){
     int N;
-    int cifra,suma=0;
+    int i=0;
+    int suma=0;
     cout<<"Ingrese un numero: ";
     cin >>N;
-    for(int i=1;i>=0;i--){
-        cifra = N%10;
-        
+    for(i;i>0;i--){
+        suma +=(N/10);
+        cout <<"La suma es: "<<suma;
     }
-    cout <<suma<<endl;
-    cout <<cifra<<endl;
+        
     return 0;
 }
