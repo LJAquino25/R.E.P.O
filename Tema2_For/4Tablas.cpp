@@ -6,7 +6,7 @@ int main(){
     cin >>N;
     for(int i=1; i<=10; i++){
      tabla = N*i;
-     cout <<N <<"*" <<i<<"=" <<N*i <<endl;
+     cout <<N <<"x" <<i<<"=" <<N*i <<endl;
     }
     return 0;
 }
