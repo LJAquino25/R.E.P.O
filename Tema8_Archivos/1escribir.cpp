@@ -5,7 +5,7 @@ using namespace std;
 string mensaje[100];
 int N;
 char opcion;
-void guardar() // guardar, siempre es esta estructura si se va a guardar muchos mensajes o enteros
+void guardar() // guardar, siempre es esta estructura si se va a guardar muchos mensajes o enteros.
 {
     ofstream archivo("mensaje.txt");
     if (archivo.is_open())
