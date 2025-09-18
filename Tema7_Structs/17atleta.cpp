@@ -8,7 +8,7 @@ struct Atleta {
 int main() {
     const int numAtletas = 5;
     Atleta atletas[numAtletas];
-    //poner numero N de atletas que quiere registrar 
+    //poner numero N de atletas que quiere registrar. 
     for (int i = 0; i < numAtletas; i++) {
         cout << "Ingrese el nombre del atleta " << (i + 1) << ": ";
         cin >> atletas[i].nombre;
