@@ -24,6 +24,7 @@ int main()
         cout << "========================================" << endl;
     }
     system("cls");
+    
     for (int i = 0; i < N; i++)
     {
         cout << "Nombre: " << Estudiantes[i].nombre << endl;
